@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* styling header section */
+
+.header {
+    background-color: rgb(219, 78, 51);
+    text-align: center;
+    letter-spacing: 5px;
+    height: 400px;
+}
+
+
+/* HISTORICAL PLACES */
+
+.h-places {
+    background-color: #c3c3c3;
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* WHICH CITY */
+
+.which-city {
+    background-color: rgb(218, 214, 214);
+    text-align: center;
+    padding: 100px;
+}
+
+
+/* which language */
+
+.w-language {
+    text-align: center;
+    padding: 50p;
+}
