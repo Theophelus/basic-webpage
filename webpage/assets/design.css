@@ -34,7 +34,7 @@
       .city p{
         letter-spacing: 3px;
         font-family: sans-serif;
-        
+
       }
 
 
@@ -60,7 +60,28 @@
             text-align: center;
             height: 500px;
             width: 100%;
-            background-color: lightsalmon;
+            background-color: lightsalmon;+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                            
         }
         .header-box img {
             height: 200px;
@@ -71,6 +92,8 @@
         .h-places {
           background-color: #fff;
           width: 100%;
+          display: inline-block;
+          vertical-align: top;
         }
         .inline {
           vertical-align: top;
