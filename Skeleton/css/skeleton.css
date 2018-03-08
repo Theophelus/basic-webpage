@@ -32,7 +32,7 @@
 .container {
     position: relative;
     width: 100%;
-    max-width: 960px;
+    max-width: 1024px;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
@@ -75,7 +75,8 @@
         width: 4.66666666667%;
     }
     .two.columns {
-        width: 13.3333333333%;
+
+      width: 13.3333333333%;
     }
     .three.columns {
         width: 22%;

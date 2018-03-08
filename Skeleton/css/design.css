@@ -1,4 +1,4 @@
-.html,
+html,
 body {
     margin: 0px;
     padding: 0px;
@@ -14,16 +14,6 @@ body {
     height: 400px;
 }
 
-
-/* HISTORICAL PLACES */
-
-.h-places {
-    background-color: #fff;
-    text-align: center;
-    padding: 50px;
-}
-
-
 /* WHICH CITY */
 
 .which-city {
@@ -36,6 +26,23 @@ body {
 /* which language */
 
 .w-language {
+    background-color:  #e5e8e8;
     text-align: center;
-    padding: 50p;
+    padding: 50px;
+}
+/* HISTORICAL PLACES */
+
+.h-places {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+}
+
+
+@media screen and (min-width: 320px){
+  .six.columns {
+    
+  }
+
 }
