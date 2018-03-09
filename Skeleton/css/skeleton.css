@@ -466,6 +466,7 @@ ol ul {
 }
 
 li {
+  margin-top: 1em;
     margin-bottom: 1rem;
 }
 
@@ -497,7 +498,7 @@ th,
 td {
     padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #E1E1E1;
+    border: 1px solid  #fdfefe;
 }
 
 th:first-child,
