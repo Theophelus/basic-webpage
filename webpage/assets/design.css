@@ -13,7 +13,7 @@
         h1 {
             color: rgba(0, 0, 0, 0.6);
             font-weight: 400;
-            padding: 100px 0;
+            padding: 50px 0;
             max-width: 640px;
             text-align: center;
             margin: 0 auto;
@@ -70,20 +70,42 @@
         /*historical places*/
         .h-places {
           background-color: #fff;
+          box-sizing: border-box;
           width: 100%;
-          display: inline-block;
-          vertical-align: top;
         }
-        .inline {
-          vertical-align: top;
-          display: inline-block;
-          width: 10em;
-          margin: 0.5em;
+        .inline img {
+          float: left;
+          width: 30.66%;
+          margin: 1em;
+          overflow: hidden;
         }
-        span {
-          display:block;
+        h5 {
+
           color: rgba(0,0,0,0.7);
-          font-size: 20px;
+          font-size: 16px;
           font-weight: 300;
           margin: auto;
         }
+
+/* Media Queries for Historical*/
+@media (min-width: 350px) {
+            .container {
+                width: 85%;
+                padding: 0;
+            }
+        }
+
+@media (min-width: 550px){
+  .container {
+    width: auto;
+  }
+  .inline {width: 30.33%;
+  margin-left: 3%;
+  float: left;}
+.inline:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+}
