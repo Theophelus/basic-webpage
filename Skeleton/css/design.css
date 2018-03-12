@@ -45,6 +45,9 @@ span {
     padding: 20px;
     width: auto;
 }
+.four.columns h6{
+  padding-top: 10px;
+}
 .four.columns img{
   margin: 1em;
   float: left;
