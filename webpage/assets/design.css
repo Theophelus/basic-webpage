@@ -21,7 +21,8 @@
 
       /*  which city */
       .city {
-        background-color:   #e5e8e8;
+        color: rgba(0,0,0,0.6);
+        background-color: #f2f3f4;
         overflow: auto;
         1
       }
@@ -32,7 +33,7 @@
         margin: 1em
       }
       .city p{
-        letter-spacing: 3px;
+        letter-spacing:normal;
         font-family: sans-serif;
 
       }
@@ -40,7 +41,7 @@
 
         /*foreign language*/
         .language {
-        background-color:#f2f4f4;
+        background-color: #f4f4f4;
       }
         table {
           margin: auto;
@@ -67,45 +68,50 @@
             width: 200px;
             border-radius: 50%;
         }
-        /*historical places*/
-        .h-places {
-          background-color: #fff;
-          box-sizing: border-box;
-          width: 100%;
-        }
-        .inline img {
-          float: left;
-          width: 30.66%;
-          margin: 1em;
-          overflow: hidden;
-        }
-        h5 {
+        /*Styling content section */
 
-          color: rgba(0,0,0,0.7);
-          font-size: 16px;
-          font-weight: 300;
-          margin: auto;
-        }
+          .h-places {
+              width: 100%;
+              margin: 1px;
+              color: rgba(0, 0, 0, 0.6);
+              box-sizing: border-box;
+          }
 
-/* Media Queries for Historical*/
-@media (min-width: 350px) {
-            .container {
-                width: 85%;
-                padding: 0;
-            }
-        }
+          .inline {
+              float: left;
+              width: 100%;
+              margin: auto;
+              box-sizing: border-box;
+          }
 
-@media (min-width: 550px){
-  .container {
-    width: auto;
-  }
-  .inline {width: 30.33%;
-  margin-left: 3%;
-  float: left;}
-.inline:before {
-  content: "";
-  display: table;
-  clear: both;
-}
+          .inline img {
+              float: left;
+              margin: 1em;
+              overflow: hidden;
+          }
 
-}
+          .inline h5 {
+            color: rgba(0,0,0,0.7);
+              font-weight: bold;
+              text-align: center;
+              margin-left: 1em;
+              overflow: hidden;
+          }
+
+          @media screen and (min-width: 410px) {
+              .h-places {
+                  width: 100%;
+                  padding: 0px;
+              }
+          }
+          /* when the media is egual to 508px */
+
+          @media screen and (min-width: 508px) {
+              .h-places {
+                  width: 100%;
+              }
+              .inline {
+                  margin-left: 1em;
+                  width: 30%;
+              }
+          }
